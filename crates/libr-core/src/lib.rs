@@ -4,10 +4,7 @@
 #![no_core]
 #![no_std]
 
-#[cfg(target_os = "linux")]
-#[link(name = "c")]
-unsafe extern "C" {}
-
+pub mod libc;
 pub mod rt;
 pub mod marker;
 

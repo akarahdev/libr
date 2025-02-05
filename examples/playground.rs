@@ -3,4 +3,6 @@
 #![no_core]
 #![no_std]
 
-fn main() {}
+fn main() {
+    libr::noop();
+}

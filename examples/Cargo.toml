@@ -1,0 +1,11 @@
+[package]
+name = "libr-examples"
+version = "0.0.0"
+edition = "2024"
+
+[[example]]
+name = "playground"
+path = "./playground.rs"
+
+[dev-dependencies]
+libr = { workspace = true }
